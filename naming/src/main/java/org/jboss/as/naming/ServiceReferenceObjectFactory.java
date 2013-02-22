@@ -31,7 +31,6 @@ import javax.naming.spi.ObjectFactory;
 
 import org.jboss.as.naming.context.ModularReference;
 import org.jboss.msc.service.ServiceController;
-import org.jboss.msc.service.ServiceController.State;
 import org.jboss.msc.service.ServiceName;
 import org.jboss.msc.service.ServiceNotFoundException;
 import org.jboss.msc.service.ServiceRegistry;
