@@ -285,7 +285,7 @@ public final class BundleLifecycleIntegration extends BundleLifecyclePlugin {
             } catch (final InterruptedException ex) {
                 // ignore
             } finally {
-                monitor.removeController(phaseService);
+                monitor.clear();
             }
 
             // In case of failure we go back to NEVER
